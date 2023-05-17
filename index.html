@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  
+ 
+<head>
+    <link rel="stylesheet" href="estilo.css">
+<title>Registro de Alumnos</title>
+  
+ 
+</head>
+ 
+<body>
+    
+<h1>Registro de Alumnos</h1>
+    
+   
+<form>
+      Ingrese Nombre 
+<input type="text" id="nombre" name="nombre" required>
+
+<br>
+    Ingrese apellido
+    <input type="text" id="apellido" name="apellido" required> 
+    <br>
+Ingrese Tipo de Documento:
+    <select type="radio" id="Tipo_Doc" name="doc" value="Tipo de Documento" required>
+      <option value="CIPE">Cipe</option>
+      <option value="DNI">Documento</option>
+      <option value="PASAPORTE">Pasaporte</option> </select> <br>
+      Ingrese D.N.I
+<input type="text" id="doc" name="documento" required><br>
+      Sexo:
+      <select type="radio" id="SEXO" name="sexo" value="SEXO" required>
+        <option value="MASCULINO">Masculino</option>
+        <option value="FEMENINO">Femenino</option>
+      </select><br>
+      Materias que Adeuda:
+      <select type="checkbox" name="Materias" id="MATERIAS" value="MATERIA" required>
+      <option value="MATEMATICA">Matematica</option>
+      <option value="Lengua">LENGUA</option>
+      <option value="HISTORIA">Historia</option>
+      <option value="Geografia">Geografia</option>
+      <option value="PROGRAMACION">Programacion</option>
+    </select>
+    <br>
+    Ingrese Edad:
+    <input type="number" name="numero" id="NUMERO" min="12" max="19">
+    <br>
+    Ingrese Fecha de Nacimiento:
+    <input type="date" name="fecha" id="FECHA" min="2011/01/01">
+    Ingrese Red Social:
+    <input type="text" name="RED" id="red">
+Ingrese Correo Electronico:
+<input type="email" id="correo" name="correo" required>
+<br>
+      
+    
+<br>
+
+      
+<label for="mensaje">Mensaje:</label>
+      
+     
+<textarea id="mensaje" name="mensaje" rows="5"></textarea>
+      <input type="image"src="Imagenes/Koala.jpg" width="100" height="400" onclick="alert('Bienvenido Alumno')">
+<input type="submit" value="Enviar">
+<input type="reset" value="Resetear">
+    </form>
+    <br>
+  
+ 
+
+  
+ 
+</
+
+  
+ 
+</body>
+
+</
+</html>

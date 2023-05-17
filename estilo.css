@@ -1,0 +1,68 @@
+body {
+    background-color: burlywood;
+    color: white;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  form {
+    border: 2px solid: coral;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  input, select, textarea {
+    border: none;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type
+
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    color: coral;
+  }
+  
+  form {
+    border: 2px solid greenyellow;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  input, select, textarea {
+    border: none;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
